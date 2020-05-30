@@ -1,0 +1,25 @@
+users: 
+    documentId: userId
+    name: String?
+    email: String?
+    iconUrl: String?
+    createdAt: Date
+    updatedAt: Date
+
+    memos:
+        documentId: auto
+        title: String
+        description: String
+        isCompleted: Bool
+        tagsIDs: [String]?
+        createdAt: Date
+        updatedAt: Date
+    
+    tags:
+        documentID: auto
+        title: String
+        isCompleted: Bool
+        completedAt: Date?
+        tagsIDs: [String]?
+        createdAt: Date
+        updatedAt: Date
